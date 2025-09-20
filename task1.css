@@ -247,7 +247,7 @@ footer {
     padding: 2rem ;
     text-align: center;
 }
-@media (max-width: 1023px) {
+/*@media (max-width: 1023px) {
   header {
     margin-left: 1rem;
     margin-right: 1rem;
@@ -331,5 +331,98 @@ footer {
     flex-direction: column;
     gap: 1rem;
     margin-right: 0;
+  }
+}*/
+@media (max-width: 1023px) { 
+  header {
+    margin-left: 1rem;
+    margin-right: 1rem;
+  }
+
+  .hero {
+    flex-direction: column;
+    align-items: center;
+    gap: 2rem;
+  }
+
+  .herosub {
+    align-items: center;
+  }
+
+  .name,
+  .title {
+    font-size: 2rem;
+    text-align: center;
+  }
+
+  .arrow {
+    display: none;
+  }
+
+  .aboutMe {
+    flex-direction: column-reverse;
+    align-items: center;
+    gap: 2rem;
+    margin: 2rem 1rem;
+  }
+
+  .textcontainer {
+    align-items: center;
+    margin: 0 2rem;
+    gap: 1rem;
+    text-align: center;
+  }
+
+  .texttitle {
+    justify-content: center;
+  }
+
+  .aboutname,
+  .abouttitle {
+    font-size: 2rem;
+  }
+
+  .Works {
+    padding: 2rem 1rem;
+    margin: 2rem 0;
+  }
+
+  .workcontainer {
+    padding: 2rem 0;
+    gap: 2rem;
+  }
+
+  .projecttitle {
+    margin-left: 1rem;
+    justify-content: center;
+  }
+
+  .Works ul {
+    flex-direction: column;
+    gap: 1rem;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .Works li {
+    padding: 1rem 2rem;
+  }
+
+  .contactContainer {
+    margin: 4rem 1rem;
+    gap: 2rem;
+  }
+
+  .contact {
+    flex-direction: column;
+    gap: 1rem;
+    margin-right: 0;
+  }
+
+  /* 👇 تصغير صور hero و aboutMe */
+  .hero img,
+  .aboutMe img {
+    max-width: 80%;
+    height: auto;
   }
 }
